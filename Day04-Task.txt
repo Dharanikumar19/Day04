@@ -1,0 +1,76 @@
+Question-4 Blog
+
+1)Declare four variables without assigning values and print them in console
+Answer:
+
+var a;
+var b;
+var c;
+var d;
+console.log(a,b,c,d);
+
+2)How to get value of the variable myvar as output
+Answer:
+
+var myvar= 1;
+console.log("myvar");
+
+3)Square of a number
+Answer:
+let square = Math.pow(5,2);
+console.log(square);
+
+4)Swapping of two numbers
+Answer:
+let a = 2;
+let b = 3;
+let temp;
+temp = a;
+a = b;
+b = temp;
+console.log(a,b);
+
+5)Addition of three numbers
+Answer:
+let a = 2;
+let b = 3;
+let c = 4;
+let d = a+b+c;
+console.log(d);
+
+6)meters to miles
+Answer:
+var i = 2;
+var a =  (i*1609.344);
+console.log(a);
+
+7)Area of triangle
+Answer:
+var side1 = 5; 
+var side2 = 6; 
+var side3 = 7; 
+var s = (side1 + side2 + side3)/2;
+var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+console.log(area);
+
+8)Volume of Sphere
+Answer:
+let radius = 5;
+let volume = (4/3)* Math.PI * Math.pow(radius, 3);
+console.log(volume);
+
+9)Power of any number
+Answer:
+var x = 2;
+var y = 3;
+var power =  (Math.pow(x, y));
+console.log(power);
+
+10)Calculate Simple Interest
+Answer:
+var p = 15;
+var  t = 12;
+var  r = 12;
+    
+var  SI = (p * t * r) / 100;
+ console.log(SI);
